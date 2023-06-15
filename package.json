@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "firebase": "^9.22.2",
+    "firebase-tools": "12.1",
+    "next": "^13.4.5"
+  },
+  "scripts":{
+    "boot": "npm install && npx firebase login --no-localhost && npx firebase experiments:enable webframeworks && npx firebase init hosting",
+    "run" : "./run.sh"
+  }
+}
