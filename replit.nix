@@ -1,5 +1,5 @@
 { pkgs }: {
-	deps = [
+	deps = [ 
   pkgs.busybox
   pkgs.nano
   pkgs.nodejs-16_x

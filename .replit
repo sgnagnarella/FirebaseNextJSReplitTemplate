@@ -1,5 +1,5 @@
 entrypoint = "index.js"
-
+ 
 run = "./run.sh"
 onBoot = "chmod +x run.sh"
 
