@@ -1,7 +1,7 @@
 entrypoint = "index.js"
  
 run = "./run.sh"
-onBoot = "chmod +x run.sh"
+onBoot = "chmod +x run.sh && chmod +x ./.config/build.sh"
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
