@@ -2,7 +2,7 @@ entrypoint = "index.js"
  
 run = "./run.sh"
 onBoot = "chmod +x run.sh && chmod +x ./.config/build.sh"
-compile = "echo "Welcome to the Firebase Magic!"
+compile = "echo 'Welcome to the Firebase Magic!'"
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
